@@ -85,7 +85,7 @@ const Works = () => {
           projects serve as real-world examples of my work, showcasing my
           ability to solve complex problems, utilize various technologies, and
           effectively manage projects. Each project is briefly described and
-          includes links to the code repository and live demos. By exploring
+          includes links to the code repository. By exploring
           these projects, you will see how I approach development challenges and
           leverage my knowledge and expertise to create functional and
           aesthetically pleasing applications.
