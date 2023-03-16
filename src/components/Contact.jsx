@@ -17,13 +17,41 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
-  // template_r0q25ev;
-  // service_88ac7s1;
-  // 
+  const handleChange = (e) => {
+    const { name, target } = e.target;
+    setForm({ ...form, [name]: value })
+  };
 
-  const handleChange = (e) => {};
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
 
-  const handleSubmit = (e) => {};
+    emailjs.send(
+      "service_88ac7s1",
+      "template_r0q25ev",
+      {
+        from_name: form.name,
+        to_name: "Jorge",
+        form_email: form.email,
+        to_email: "jbxamora@icloud.com",
+        message: form.message,
+      },
+      "x1z0XVxJpE0k6XVbU"
+    )
+    .then(() => {
+      setLoading(false);
+      alert('Thank you. I will get back to you within 5 business days!');
+
+      setForm({
+        name: "",
+        email: "",
+        message: "",
+      })
+    }, (error) => {
+      setLoading(false);
+      alert('Something went wrong.');
+    });
+  };
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
