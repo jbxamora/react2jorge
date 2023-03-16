@@ -18,9 +18,15 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
-    const { name, target } = e.target;
-    setForm({ ...form, [name]: value })
+    const { target } = e;
+    const { name, value } = target;
+
+    setForm({
+      ...form,
+      [name]: value,
+    });
   };
+
 
   const handleSubmit = (e) => {
     e.preventDefault();
