@@ -139,6 +139,30 @@ const EarthCanvas = () => {
 }
 
 ```
+## Features
+
+1. React
+2. TailWindCSS
+3. Custom Domain
+4. Accessability
+5. Three.js
+6. Email.js
+
+## Sources
+
+This project uses the following libraries and tools:
+
+- [Three.js](https://threejs.org/)
+- [Tailwind CSS](https://tailwindcss.com/docs/installation)
+- [React Render Props](https://reactjs.org/docs/render-props.html)
+- [Netlify](https://docs.netlify.com/get-started/)
+- [Vite](https://vitejs.dev/guide/)
+- [PostCSS](https://postcss.org/)
+- [JavaScript Mastery](https://www.jsmastery.pro/resources)
+- [Framer Motion](https://www.framer.com/motion/?utm_source=motion-readme-docs)
+- [Maath](https://www.npmjs.com/package/maath?activeTab=explore)
+- [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
+- [Drei](https://github.com/pmndrs/drei)
 
 ## License
 
@@ -164,30 +188,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Features
-
-1. React
-2. TailWindCSS
-3. Custom Domain
-4. Accessability
-5. Three.js
-6. Email.js
-
-## Sources
-
-This project uses the following libraries and tools:
-
-- [Three.js](https://threejs.org/)
-- [Tailwind CSS](https://tailwindcss.com/docs/installation)
-- [React Render Props](https://reactjs.org/docs/render-props.html)
-- [Netlify](https://docs.netlify.com/get-started/)
-- [Vite](https://vitejs.dev/guide/)
-- [PostCSS](https://postcss.org/)
-- [JavaScript Mastery](https://www.jsmastery.pro/resources)
-- [Framer Motion](https://www.framer.com/motion/?utm_source=motion-readme-docs)
-- [Maath](https://www.npmjs.com/package/maath?activeTab=explore)
-- [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
-- [Drei](https://github.com/pmndrs/drei)
 
 Please refer to the documentation of each library/tool for more information on their usage and licensing.
 
