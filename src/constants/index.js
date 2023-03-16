@@ -203,7 +203,7 @@ const projects = [
     {
         name: "Project 1",
         description:
-            "placeholder",        
+            "placeholderDFGDFGDFGDFGDFGDFGDFGDFGDFGDFG",        
         tags: [
             {
                 name: "react",
@@ -224,7 +224,7 @@ const projects = [
     {
         name: "Project 2",
         description:
-            "placeholder",
+            "placeholderDFGDFGDFGDFGDFGDFGDFDFGDFGFDGDFGDFGDFGDFGDFGDFGD",
         tags: [
             {
                 name: "react",
