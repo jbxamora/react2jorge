@@ -10,16 +10,20 @@ import { slideIn } from '../utils/motion';
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
-    name: '',
-    email: '',
-    message: '',
-    });
+    name: "",
+    email: "",
+    message: "",
+  });
 
-    const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(false);
 
-    const handleChange = (e) => {}
+  // template_r0q25ev;
+  // service_88ac7s1;
+  // 
 
-    const handleSubmit = (e) => {}
+  const handleChange = (e) => {};
+
+  const handleSubmit = (e) => {};
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
@@ -67,7 +71,7 @@ const Contact = () => {
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Message</span>
             <textarea
-              rows='7'
+              rows="7"
               name="message"
               value={form.message}
               onChange={handleChange}
@@ -78,22 +82,22 @@ const Contact = () => {
                 border-none font-medium"
             />
           </label>
-          
-          <button
-          type='submit'
-          className='bg-tertiary mt-4 py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'>
-            {loading ? 'Sending...' : 'Send'}
-          </button>
 
+          <button
+            type="submit"
+            className="bg-tertiary mt-4 py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
+          >
+            {loading ? "Sending..." : "Send"}
+          </button>
         </form>
       </motion.div>
 
-<motion.div
-variants={slideIn('right', 'tween', 0.2, 1)}
-className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'>
-<EarthCanvas />
-</motion.div>
-
+      <motion.div
+        variants={slideIn("right", "tween", 0.2, 1)}
+        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+      >
+        <EarthCanvas />
+      </motion.div>
     </div>
   );
 }
