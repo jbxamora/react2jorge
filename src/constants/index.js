@@ -25,7 +25,10 @@ import {
     threejs,
     python,
     expressjs,
-    jest
+    jest,
+    thoughtsup,
+    progrest,
+    codecrate
 } from "../assets";
 
 export const navLinks = [
@@ -116,118 +119,103 @@ const technologies = [
         icon: git,
     },
 ];
-
-const experiences = [
-    {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+const experiences = [{
+    title: "Freelance Developer", 
+    company_name: "SmART", 
+    icon: shopify, 
+    iconBg: "#383E56", 
+    date: "Dec 2022 - Jan 2023", 
+    points: [
+        "Developing custom Shopify websites for clients in a variety of industries.", 
+        "Creating custom themes and integrating third-party apps to meet clients' specific needs.", 
+        "Troubleshooting and resolving technical issues to ensure smooth website performance.", 
+        "Providing ongoing support and maintenance to clients after website launch.",],
+},
+{
+    title: "Freelance Developer",
+    company_name: "iNoV8",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "Feb 2023 - Mar 2023",
+    points: [
+        "Collaborating with clients to understand their business goals and website requirements.",
+        "Developing and implementing SEO strategies to improve website visibility and drive traffic.",
+        "Customizing Shopify checkout process to improve conversion rates.",
+        "Working with designers to create visually appealing and user-friendly website designs.",
+    ],
+},
+{
+    title: "Freelance Developer",
+    company_name: "Global10",
+    icon: shopify,
+    iconBg: "##383E56",
+    date: "Mar 2023 - Apr 2023",
+    points: [
+        "Developing custom Shopify apps to extend website functionality.",
+        "Integrating Shopify with third-party APIs to automate business processes.",
+        "Performing website audits to identify and address performance issues.",
+        "Training clients on how to manage and update their Shopify websites.",
+    ],
+},
 ];
 
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Jorge proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+            "Jorge's innovative design and development approach helped us achieve our business objectives in record time. His expertise in building high-performing websites is unmatched.",
+        name: "Emily Chen",
+        designation: "CEO",
+        company: "SmART",
+        image: "https://randomuser.me/api/portraits/women/1.jpg",
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Jorge does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
+            "Jorge's commitment to quality and attention to detail is truly remarkable. His ability to understand our unique requirements and deliver customized solutions sets him apart from other web developers.",
+        name: "Alex Wong",
+        designation: "VP Marketing",
+        company: "Global10",
+        image: "https://randomuser.me/api/portraits/men/2.jpg",
     },
     {
         testimonial:
-            "After Jorge optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+            "Jorge's technical skills and professionalism are second to none. He provided exceptional support throughout the entire development process and delivered a website that exceeded our expectations.",
+        name: "Julie Smith",
+        designation: "Founder",
+        company: "iNov8 L.P.",
+        image: "https://randomuser.me/api/portraits/women/3.jpg",
     },
 ];
 
+
 const projects = [
     {
-        name: "Project 1",
+        name: "Progrest",
         description:
-            "placeholderDFGDFGDFGDFGDFGDFGDFGDFGDFGDFG",        
+            "progrest is a comprehensive solution for non-profit organizations to manage their volunteer hours, donations, and impact metrics in one place. The platform provides an easy-to-use interface for tracking volunteer hours, processing donations securely through a payment gateway, and measuring the impact of different projects",
         tags: [
             {
-                name: "react",
+                name: "handlebars",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "mysql",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "bootstrap",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/jbxamora/",
+        image: progrest,
+        source_code_link: "https://github.com/jbxamora/progrest",
     },
     {
-        name: "Project 2",
+        name: "ThoughtsUp",
         description:
-            "placeholderDFGDFGDFGDFGDFGDFGDFDFGDFGFDGDFGDFGDFGDFGDFGDFGD",
+            "ThoughtsUp is a social network API built using Express.js and MongoDB, which can handle large amounts of unstructured data. It offers a variety of features such as sharing thoughts, reacting to friend’s thoughts, and creating a friend list. ",
         tags: [
             {
-                name: "react",
+                name: "Express",
                 color: "blue-text-gradient",
             },
             {
@@ -235,33 +223,33 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "mongodb",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/jbxamora/",
+        image: thoughtsup,
+        source_code_link: "https://github.com/jbxamora/ThoughtsUp",
     },
     {
-        name: "Project 3",
+        name: "CodeCrate",
         description:
-            "placeholder",
+            "CodeCrate is just another text editor",
         tags: [
             {
-                name: "nextjs",
+                name: "PWA",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "express",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "webpack",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/jbxamora/",
+        image: codecrate,
+        source_code_link: "https://github.com/jbxamora/CodeCrate",
     },
 ];
 

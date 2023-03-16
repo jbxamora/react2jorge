@@ -32,6 +32,10 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import codecrate from "./codecrate.png";
+import progrest from "./progrest.png";
+import thoughtsup from "./thoughtsup.png";
+
 
 export {
   logo,
@@ -64,5 +68,8 @@ export {
   tripguide,
   expressjs,
   python,
-  jest
+  jest,
+  thoughtsup,
+  codecrate,
+  progrest
 };
