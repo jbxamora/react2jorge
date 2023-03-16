@@ -1,3 +1,4 @@
+// Import necessary dependencies and resources
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -5,11 +6,14 @@ import { Styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 
+// Create Navbar component
 const Navbar = () => {
+  // Initialize state variables
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
+  // Add event listener for scroll behavior
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
@@ -22,9 +26,11 @@ const Navbar = () => {
 
     window.addEventListener("scroll", handleScroll);
 
+    // Clean up event listener on component unmount
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Define toggleMenu function to handle menu toggle
   return (
     <nav
       className={`${
@@ -68,7 +74,7 @@ const Navbar = () => {
             src={toggle ? close : menu}
             alt="menu"
             className="w-[28px] h-[28px] object-contain"
-            onClick={() => setToggle(!toggle)}
+            onClick={() => setToggle(!toggle)} 
           />
 
           <div

@@ -22,6 +22,9 @@ import {
     codecrate
 } from "../assets";
 
+// Can Change Any of these descriptions and easily update
+
+// Custom Section Links
 export const navLinks = [
     {
         id: "about",
@@ -37,6 +40,7 @@ export const navLinks = [
     },
 ];
 
+// Services and Related Icons
 const services = [
     {
         title: "AI Developer",
@@ -56,6 +60,7 @@ const services = [
     },
 ];
 
+// Technologies and Related Icons
 const technologies = [
     {
         name: "HTML 5",
@@ -110,16 +115,18 @@ const technologies = [
         icon: git,
     },
 ];
+
+// Work Experience
 const experiences = [{
-    title: "Freelance Developer", 
-    company_name: "SmART", 
-    icon: shopify, 
-    iconBg: "#383E56", 
-    date: "Dec 2022 - Jan 2023", 
+    title: "Freelance Developer",
+    company_name: "SmART",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "Dec 2022 - Jan 2023",
     points: [
-        "Developing custom Shopify websites for clients in a variety of industries.", 
-        "Creating custom themes and integrating third-party apps to meet clients' specific needs.", 
-        "Troubleshooting and resolving technical issues to ensure smooth website performance.", 
+        "Developing custom Shopify websites for clients in a variety of industries.",
+        "Creating custom themes and integrating third-party apps to meet clients' specific needs.",
+        "Troubleshooting and resolving technical issues to ensure smooth website performance.",
         "Providing ongoing support and maintenance to clients after website launch.",],
 },
 {
@@ -150,6 +157,7 @@ const experiences = [{
 },
 ];
 
+// Client Testimonies
 const testimonials = [
     {
         testimonial:
@@ -177,7 +185,7 @@ const testimonials = [
     },
 ];
 
-
+// Projects
 const projects = [
     {
         name: "Progrest",

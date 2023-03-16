@@ -1,17 +1,21 @@
+// Import React and React components
 import React from "react";
+import { motion } from "framer-motion";
+
+// Import third-party components
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-import { motion } from "framer-motion";
-
 import "react-vertical-timeline-component/style.min.css";
 
+// Import project-specific components and data
 import { Styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
+// Component for displaying a single experience card
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
@@ -42,6 +46,7 @@ const ExperienceCard = ({ experience }) => {
         </p>
       </div>
 
+      {/* Display bullet points for the experience */}
       <ul className="mt-5 list-disc ml-5 space-y-2">
         {experience.points.map((point, index) => (
           <li
@@ -56,9 +61,11 @@ const ExperienceCard = ({ experience }) => {
   );
 };
 
+// Component for displaying all experiences using the ExperienceCard component
 const Experience = () => {
   return (
     <>
+      {/* Display section heading with animation */}
       <motion.div variants={textVariant()}>
         <p className={`${Styles.sectionSubText} text-center`}>
           What I have done so far
@@ -68,6 +75,7 @@ const Experience = () => {
         </h2>
       </motion.div>
 
+      {/* Display all experience cards using the ExperienceCard component */}
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
           {experiences.map((experience, index) => (
@@ -82,4 +90,5 @@ const Experience = () => {
   );
 };
 
+// Wrap the Experience component in a section wrapper with a specific ID
 export default SectionWrapper(Experience, "work");

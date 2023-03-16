@@ -1,7 +1,10 @@
 import { Html, useProgress } from "@react-three/drei";
 
 const CanvasLoader = () => {
+  // Retrieve the progress value from the useProgress hook
   const { progress } = useProgress();
+
+  // Display a loading spinner and the current progress percentage
   return (
     <Html
       as="div"
