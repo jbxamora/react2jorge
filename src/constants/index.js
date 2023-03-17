@@ -27,7 +27,7 @@ import {
 
 function handleDownload(url) {
     const link = document.createElement("a");
-    link.href = navLinks.href;
+    link.href = 'https://www.dropbox.com/s/hb6m45hpwmt4wa2/Jorge_Zamora-Developer.docx?dl=0';
     link.download = "resume.pdf";
     link.target = "_blank";
     document.body.appendChild(link);
