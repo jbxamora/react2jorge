@@ -19,8 +19,22 @@ import {
     expressjs,
     thoughtsup,
     progrest,
-    codecrate
+    codecrate,
+    expressnotes,
+    backofshop,
+    sqltrack
 } from "../assets";
+
+function handleDownload(url) {
+    const link = document.createElement("a");
+    link.href = navLinks.href;
+    link.download = "resume.pdf";
+    link.target = "_blank";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+
 
 // Can Change Any of these descriptions and easily update
 
@@ -38,6 +52,13 @@ export const navLinks = [
         id: "contact",
         title: "Contact",
     },
+    {
+        id: "resume",
+        title: "Resume",
+        download: true,
+        onClick: () => handleDownload(),
+        href: "https://docs.google.com/document/d/1L3GP2V7HuJTcxTrlnNp-N0kB1Jz0l-dc/edit?usp=sharing&ouid=106316038865989947203&rtpof=true&sd=true",
+    }
 ];
 
 // Services and Related Icons
@@ -249,6 +270,69 @@ const projects = [
         ],
         image: codecrate,
         source_code_link: "https://github.com/jbxamora/CodeCrate",
+    },
+    {
+        name: "BackOfShop",
+        description:
+            "This is a back end for an e-commerce website built with the latest technologies, allowing the company to compete with other e-commerce companies. ",
+        tags: [
+            {
+                name: "mysql2",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "sequelize",
+                color: "green-text-gradient",
+            },
+            {
+                name: "nodejs",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: backofshop,
+        source_code_link: "https://github.com/jbxamora/backofshop",
+    },
+    {
+        name: "sqlTrackR",
+        description:
+            "Organize and plan your business with ease! Manage your company's departments, roles, and employees all in one place with this command-line application, that lets you view and add departments, roles, and employees, update an employee's role, and even view the budget of a department!",
+        tags: [
+            {
+                name: "mysql",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "nodejs",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: sqltrack,
+        source_code_link: "https://github.com/jbxamora/backofshop",
+    },
+    {
+        name: "ExpressNotes",
+        description:
+            "expressnotes is a simple web application for creating, storing, and managing notes. Built with Express and Node.js, it allows users to quickly write down and save their thoughts and ideas.",
+        tags: [
+            {
+                name: "javascript",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "express",
+                color: "green-text-gradient",
+            },
+            {
+                name: "nodejs",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: expressnotes,
+        source_code_link: "https://github.com/jbxamora/expressnotes",
     },
 ];
 

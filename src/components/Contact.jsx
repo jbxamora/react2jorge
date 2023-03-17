@@ -127,12 +127,30 @@ const Contact = () => {
           </label>
 
           {/* A button with different text depending on whether a submission is loading */}
-          <button
-            type="submit"
-            className="bg-tertiary mt-4 py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
-          >
-            {loading ? "Sending..." : "Send"}
-          </button>
+          <div className="flex">
+            <button
+              type="submit"
+              className="bg-tertiary mt-4 py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl mr-4"
+            >
+              {loading ? "Sending..." : "Send"}
+            </button>
+            <a
+              href="https://github.com/jbxamora"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-tertiary mt-4 py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl mr-4"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://gist.github.com/jbxamora"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-tertiary mt-4 py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
+            >
+              Blog
+            </a>
+          </div>
         </form>
       </motion.div>
 

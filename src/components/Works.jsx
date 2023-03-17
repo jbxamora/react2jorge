@@ -82,17 +82,17 @@ const ProjectCard = ({
   );
 };
 
-// This code defines a functional component called Works.
+// This code defines a functional component called Works This is my 'Project" component.
 const Works = () => {
   // The component returns a JSX fragment, which contains multiple elements.
   return (
     <>
       {/* This motion.div element uses a variant called textVariant(). */}
       <motion.div variants={textVariant()}>
-        // This p element contains text that serves as a subtitle for the
+        {/*  This p element contains text that serves as a subtitle for the */}
         section.
         <p className={`${Styles.sectionSubText} `}>My work</p>
-        // This h2 element contains text that serves as the section heading.
+        {/*  This h2 element contains text that serves as the section heading. */}
         <h2 className={`${Styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 

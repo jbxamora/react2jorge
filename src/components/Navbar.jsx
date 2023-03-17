@@ -12,7 +12,7 @@ const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-
+  
   // Add event listener for scroll behavior
   useEffect(() => {
     const handleScroll = () => {
@@ -23,13 +23,15 @@ const Navbar = () => {
         setScrolled(false);
       }
     };
-
+    
     window.addEventListener("scroll", handleScroll);
-
+    
     // Clean up event listener on component unmount
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Handle Resume Download
+  
   // Define toggleMenu function to handle menu toggle
   return (
     <nav
@@ -74,7 +76,7 @@ const Navbar = () => {
             src={toggle ? close : menu}
             alt="menu"
             className="w-[28px] h-[28px] object-contain"
-            onClick={() => setToggle(!toggle)} 
+            onClick={() => setToggle(!toggle)}
           />
 
           <div
@@ -94,7 +96,13 @@ const Navbar = () => {
                     setActive(nav.title);
                   }}
                 >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                  {nav.download ? (
+                    <a href="#" onClick={nav.onClick}>
+                      {nav.title}
+                    </a>
+                  ) : (
+                    <a href={`#${nav.id}`}>{nav.title}</a>
+                  )}
                 </li>
               ))}
             </ul>
