@@ -127,10 +127,10 @@ const Contact = () => {
           </label>
 
           {/* A button with different text depending on whether a submission is loading */}
-          <div className="flex">
+          <div className="flex flex-col items-center sm:flex-row sm:justify-center">
             <button
               type="submit"
-              className="bg-tertiary mt-4 py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl mr-4"
+              className="bg-tertiary mt-4 py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl mr-4 sm:justify-content-center"
             >
               {loading ? "Sending..." : "Send"}
             </button>
@@ -138,7 +138,7 @@ const Contact = () => {
               href="https://github.com/jbxamora"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-tertiary mt-4 py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl mr-4"
+              className="bg-tertiary mt-4 py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl mr-4 hidden sm:inline-block"
             >
               GitHub
             </a>
@@ -146,7 +146,7 @@ const Contact = () => {
               href="https://gist.github.com/jbxamora"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-tertiary mt-4 py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
+              className="bg-tertiary mt-4 py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl hidden sm:inline-block"
             >
               Blog
             </a>
