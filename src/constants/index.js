@@ -22,7 +22,8 @@ import {
     codecrate,
     expressnotes,
     backofshop,
-    sqltrack
+    sqltrack,
+    ecomdash
 } from "../assets";
 
 function handleDownload(url) {
@@ -57,7 +58,7 @@ export const navLinks = [
         title: "Resume",
         download: true,
         onClick: () => handleDownload(),
-        href: "https://docs.google.com/document/d/1L3GP2V7HuJTcxTrlnNp-N0kB1Jz0l-dc/edit?usp=sharing&ouid=106316038865989947203&rtpof=true&sd=true",
+        href: 'https://www.dropbox.com/s/hb6m45hpwmt4wa2/Jorge_Zamora-Developer.docx?dl=0',
     }
 ];
 
@@ -314,9 +315,9 @@ const projects = [
         source_code_link: "https://github.com/jbxamora/backofshop",
     },
     {
-        name: "ExpressNotes",
+        name: "EcomVision",
         description:
-            "expressnotes is a simple web application for creating, storing, and managing notes. Built with Express and Node.js, it allows users to quickly write down and save their thoughts and ideas.",
+            "The ultimate admin dashboard solution for businesses. With ECOMVISION, you can easily manage and analyze your business data in one convenient location. From tracking sales figures to customer engagement metrics, ECOMVISION has got you covered. With a modern and intuitive interface, managing your data has never been easier. ",
         tags: [
             {
                 name: "javascript",
@@ -331,8 +332,8 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: expressnotes,
-        source_code_link: "https://github.com/jbxamora/expressnotes",
+        image: ecomdash,
+        source_code_link: "https://github.com/jbxamora/admindash",
     },
 ];
 

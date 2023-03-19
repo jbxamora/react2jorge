@@ -31,6 +31,7 @@ import thoughtsup from "./thoughtsup.png";
 import expressnotes from "./expressnotes.png";
 import backofshop from "./backofshop.png";
 import sqltrack from "./SQLTrakR.png";
+import ecomdash from "./ecomdash.png";
 
 export {
   logo,
@@ -62,5 +63,6 @@ export {
   progrest,
   expressnotes,
   backofshop,
-  sqltrack
+  sqltrack,
+  ecomdash
 };
