@@ -231,6 +231,27 @@ const projects = [
         source_code_link: "https://github.com/jbxamora/progrest",
     },
     {
+        name: "EcomVision",
+        description:
+            "The ultimate admin dashboard solution for businesses. With ECOMVISION, you can easily manage and analyze your business data in one convenient location. From tracking sales figures to customer engagement metrics, ECOMVISION has got you covered. With a modern and intuitive interface, managing your data has never been easier. ",
+        tags: [
+            {
+                name: "javascript",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "express",
+                color: "green-text-gradient",
+            },
+            {
+                name: "nodejs",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: ecomdash,
+        source_code_link: "https://github.com/jbxamora/admindash",
+    },
+    {
         name: "ThoughtsUp",
         description:
             "ThoughtsUp is a social network API built using Express.js and MongoDB, which can handle large amounts of unstructured data. It offers a variety of features such as sharing thoughts, reacting to friend’s thoughts, and creating a friend list. ",
@@ -313,28 +334,7 @@ const projects = [
         ],
         image: sqltrack,
         source_code_link: "https://github.com/jbxamora/backofshop",
-    },
-    {
-        name: "EcomVision",
-        description:
-            "The ultimate admin dashboard solution for businesses. With ECOMVISION, you can easily manage and analyze your business data in one convenient location. From tracking sales figures to customer engagement metrics, ECOMVISION has got you covered. With a modern and intuitive interface, managing your data has never been easier. ",
-        tags: [
-            {
-                name: "javascript",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "express",
-                color: "green-text-gradient",
-            },
-            {
-                name: "nodejs",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: ecomdash,
-        source_code_link: "https://github.com/jbxamora/admindash",
-    },
+    }
 ];
 
 export { services, technologies, experiences, testimonials, projects };
