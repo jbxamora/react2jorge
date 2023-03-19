@@ -236,15 +236,19 @@ const projects = [
             "The ultimate admin dashboard solution for businesses. With ECOMVISION, you can easily manage and analyze your business data in one convenient location. From tracking sales figures to customer engagement metrics, ECOMVISION has got you covered. With a modern and intuitive interface, managing your data has never been easier. ",
         tags: [
             {
-                name: "javascript",
+                name: "MERN",
                 color: "blue-text-gradient",
             },
             {
-                name: "express",
+                name: "MUI",
                 color: "green-text-gradient",
             },
             {
-                name: "nodejs",
+                name: "Nodejs",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Redux",
                 color: "pink-text-gradient",
             },
         ],
