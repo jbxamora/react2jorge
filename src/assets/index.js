@@ -32,6 +32,7 @@ import expressnotes from "./expressnotes.png";
 import backofshop from "./backofshop.png";
 import sqltrack from "./SQLTrakR.png";
 import ecomdash from "./ecomdash.png";
+import dalle from "./dall.png"
 
 export {
   logo,
@@ -64,5 +65,6 @@ export {
   expressnotes,
   backofshop,
   sqltrack,
-  ecomdash
+  ecomdash,
+  dalle
 };

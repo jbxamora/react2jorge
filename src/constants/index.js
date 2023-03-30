@@ -23,7 +23,8 @@ import {
     expressnotes,
     backofshop,
     sqltrack,
-    ecomdash
+    ecomdash,
+    dalle
 } from "../assets";
 
 function handleDownload(url) {
@@ -210,25 +211,25 @@ const testimonials = [
 // Projects
 const projects = [
     {
-        name: "Progrest",
+        name: "DALL-E Clone",
         description:
-            "progrest is a comprehensive solution for non-profit organizations to manage their volunteer hours, donations, and impact metrics in one place. The platform provides an easy-to-use interface for tracking volunteer hours, processing donations securely through a payment gateway, and measuring the impact of different projects",
+            "A web application built using React.js that utilizes OpenAI's DALL-E API to generate images from textual descriptions. The application is designed to showcase the power of OpenAI's DALL-E API and how it can be used to create stunning images from textual inputs.",
         tags: [
             {
-                name: "handlebars",
+                name: "MERN",
                 color: "blue-text-gradient",
             },
             {
-                name: "mysql",
+                name: "TailwindCSS",
                 color: "green-text-gradient",
             },
             {
-                name: "bootstrap",
+                name: "OpenAI",
                 color: "pink-text-gradient",
             },
         ],
-        image: progrest,
-        source_code_link: "https://github.com/jbxamora/progrest",
+        image: dalle,
+        source_code_link: "https://github.com/jbxamora/DALL-E-Clone",
     },
     {
         name: "EcomVision",
@@ -255,27 +256,27 @@ const projects = [
         image: ecomdash,
         source_code_link: "https://github.com/jbxamora/admindash",
     },
-    {
-        name: "ThoughtsUp",
-        description:
-            "ThoughtsUp is a social network API built using Express.js and MongoDB, which can handle large amounts of unstructured data. It offers a variety of features such as sharing thoughts, reacting to friend’s thoughts, and creating a friend list. ",
-        tags: [
-            {
-                name: "Express",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "mongodb",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: thoughtsup,
-        source_code_link: "https://github.com/jbxamora/ThoughtsUp",
-    },
+    // {
+    //     name: "ThoughtsUp",
+    //     description:
+    //         "ThoughtsUp is a social network API built using Express.js and MongoDB, which can handle large amounts of unstructured data. It offers a variety of features such as sharing thoughts, reacting to friend’s thoughts, and creating a friend list. ",
+    //     tags: [
+    //         {
+    //             name: "Express",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "restapi",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "mongodb",
+    //             color: "pink-text-gradient",
+    //         },
+    //     ],
+    //     image: thoughtsup,
+    //     source_code_link: "https://github.com/jbxamora/ThoughtsUp",
+    // },
     {
         name: "CodeCrate",
         description:
@@ -297,48 +298,48 @@ const projects = [
         image: codecrate,
         source_code_link: "https://github.com/jbxamora/CodeCrate",
     },
-    {
-        name: "BackOfShop",
-        description:
-            "This is a back end for an e-commerce website built with the latest technologies, allowing the company to compete with other e-commerce companies. ",
-        tags: [
-            {
-                name: "mysql2",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "sequelize",
-                color: "green-text-gradient",
-            },
-            {
-                name: "nodejs",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: backofshop,
-        source_code_link: "https://github.com/jbxamora/backofshop",
-    },
-    {
-        name: "sqlTrackR",
-        description:
-            "Organize and plan your business with ease! Manage your company's departments, roles, and employees all in one place with this command-line application, that lets you view and add departments, roles, and employees, update an employee's role, and even view the budget of a department!",
-        tags: [
-            {
-                name: "mysql",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "javascript",
-                color: "green-text-gradient",
-            },
-            {
-                name: "nodejs",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: sqltrack,
-        source_code_link: "https://github.com/jbxamora/backofshop",
-    }
+    // {
+    //     name: "BackOfShop",
+    //     description:
+    //         "This is a back end for an e-commerce website built with the latest technologies, allowing the company to compete with other e-commerce companies. ",
+    //     tags: [
+    //         {
+    //             name: "mysql2",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "sequelize",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "nodejs",
+    //             color: "pink-text-gradient",
+    //         },
+    //     ],
+    //     image: backofshop,
+    //     source_code_link: "https://github.com/jbxamora/backofshop",
+    // },
+    // {
+    //     name: "sqlTrackR",
+    //     description:
+    //         "Organize and plan your business with ease! Manage your company's departments, roles, and employees all in one place with this command-line application, that lets you view and add departments, roles, and employees, update an employee's role, and even view the budget of a department!",
+    //     tags: [
+    //         {
+    //             name: "mysql",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "javascript",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "nodejs",
+    //             color: "pink-text-gradient",
+    //         },
+    //     ],
+    //     image: sqltrack,
+    //     source_code_link: "https://github.com/jbxamora/backofshop",
+    // }
 ];
 
 export { services, technologies, experiences, testimonials, projects };
