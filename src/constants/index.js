@@ -24,7 +24,8 @@ import {
     backofshop,
     sqltrack,
     ecomdash,
-    dalle
+    dalle,
+    spice
 } from "../assets";
 
 function handleDownload(url) {
@@ -278,25 +279,25 @@ const projects = [
     //     source_code_link: "https://github.com/jbxamora/ThoughtsUp",
     // },
     {
-        name: "CodeCrate",
+        name: "Spice",
         description:
-            "CodeCrate is just another text editor",
+            "Submit, Personalize, Improve, Create, Enjoy",
         tags: [
             {
-                name: "PWA",
+                name: "MERN",
                 color: "blue-text-gradient",
             },
             {
-                name: "express",
+                name: "TailwindCSS",
                 color: "green-text-gradient",
             },
             {
-                name: "webpack",
+                name: "Blog",
                 color: "pink-text-gradient",
             },
         ],
-        image: codecrate,
-        source_code_link: "https://github.com/jbxamora/CodeCrate",
+        image: spice,
+        source_code_link: "https://github.com/jbxamora/SPICE",
     },
     // {
     //     name: "BackOfShop",

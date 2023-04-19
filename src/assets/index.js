@@ -33,6 +33,7 @@ import backofshop from "./backofshop.png";
 import sqltrack from "./SQLTrakR.png";
 import ecomdash from "./ecomdash.png";
 import dalle from "./dall.png"
+import spice from "./spice.png"
 
 export {
   logo,
@@ -66,5 +67,6 @@ export {
   backofshop,
   sqltrack,
   ecomdash,
-  dalle
+  dalle,
+  spice
 };
