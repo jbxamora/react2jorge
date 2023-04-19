@@ -281,7 +281,7 @@ const projects = [
     {
         name: "Spice",
         description:
-            "Submit, Personalize, Improve, Create, Enjoy",
+            "SPICE is a MERN stack recipe application that allows users to create, read, update, and delete recipes. The acronym SPICE stands for `Submit, Personalize, Improve, Create, Enjoy`, and the application is designed to provide an easy-to-use platform for users to share and discover new recipes. It also serves as a community for those looking to enhance their culinary abilities. SPICE is a judgement free platform that welcomes food lovers from every background.",
         tags: [
             {
                 name: "MERN",
