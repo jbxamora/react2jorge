@@ -24,6 +24,7 @@ const ProjectCard = ({
   image,
   description,
   source_code_link,
+  live_demo_link,
   tags,
 }) => {
   return (
@@ -76,6 +77,26 @@ const ProjectCard = ({
               #{tag.name}
             </p>
           ))}
+        </div>
+        <div>
+          <button>
+            <a
+              href={live_demo_link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-tertiary mt-4 py-2 px-11 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl mr-4 hidden sm:inline-block"
+            >
+            Site
+            </a>
+            <a
+              href={source_code_link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-tertiary mt-4 py-2 px-11 ml-4 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl mr-4 hidden sm:inline-block"
+            >
+              Repo
+            </a>
+          </button>
         </div>
       </Tilt>
     </motion.div>

@@ -222,7 +222,7 @@ const projects = [
                 color: "blue-text-gradient",
             },
             {
-                name: "MaterialUI",
+                name: "MUI",
                 color: "green-text-gradient",
             },
             {
@@ -232,11 +232,12 @@ const projects = [
         ],
         image: finance,
         source_code_link: "https://github.com/jbxamora/finanseer",
+        live_demo_link: "https://finanseer-4bdg.onrender.com/",
     },
     {
         name: "EcomVision",
         description:
-            "The ultimate admin dashboard solution for businesses. With ECOMVISION, you can easily manage and analyze your business data in one convenient location. From tracking sales figures to customer engagement metrics, ECOMVISION has got you covered. With a modern and intuitive interface, managing your data has never been easier. ",
+            "The ultimate admin dashboard solution for businesses. With ECOMVISION, you can easily manage and analyze your business data in one convenient location. From tracking sales figures to customer engagement metrics, ECOMVISION has got you covered. ",
         tags: [
             {
                 name: "MERN",
@@ -247,16 +248,13 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "Nodejs",
-                color: "pink-text-gradient",
-            },
-            {
-                name: "Redux",
+                name: "Finance",
                 color: "pink-text-gradient",
             },
         ],
         image: ecomdash,
         source_code_link: "https://github.com/jbxamora/admindash",
+        live_demo_link: "https://adminclient-nfme.onrender.com",
     },
     {
         name: "DALLE-E Clone",
@@ -278,11 +276,12 @@ const projects = [
         ],
         image: dalle,
         source_code_link: "https://github.com/jbxamora/DALL-E-Clone",
+        live_demo_link: "https://dall-e2-e3hy.onrender.com/",
     },
     {
         name: "Spice",
         description:
-            "SPICE is a MERN stack recipe application that allows users to create, read, update, and delete recipes. The acronym SPICE stands for `Submit, Personalize, Improve, Create, Enjoy`, and the application is designed to provide an easy-to-use platform for users to share and discover new recipes. It also serves as a community for those looking to enhance their culinary abilities. SPICE is a judgement free platform that welcomes food lovers from every background.",
+            "SPICE is a MERN stack recipe application that allows users to create, read, update, and delete recipes. The acronym SPICE stands for `Submit, Personalize, Improve, Create, Enjoy`, and the application is designed to provide an easy-to-use platform for users to share and discover new recipes. ",
         tags: [
             {
                 name: "MERN",
@@ -299,6 +298,7 @@ const projects = [
         ],
         image: spice,
         source_code_link: "https://github.com/jbxamora/SPICE",
+        live_demo_link: "https://spicerecipeapp.herokuapp.com/",
     },
     // {
     //     name: "BackOfShop",
