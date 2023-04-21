@@ -34,7 +34,7 @@ import sqltrack from "./SQLTrakR.png";
 import ecomdash from "./ecomdash.png";
 import dalle from "./dall.png"
 import spice from "./spice.png"
-
+import finance from "./finance.png"
 export {
   logo,
   backend,
@@ -68,5 +68,6 @@ export {
   sqltrack,
   ecomdash,
   dalle,
-  spice
+  spice,
+  finance
 };

@@ -25,7 +25,8 @@ import {
     sqltrack,
     ecomdash,
     dalle,
-    spice
+    spice,
+    finance
 } from "../assets";
 
 function handleDownload(url) {
@@ -212,25 +213,25 @@ const testimonials = [
 // Projects
 const projects = [
     {
-        name: "DALL-E Clone",
+        name: "Finanseer",
         description:
-            "A web application built using React.js that utilizes OpenAI's DALL-E API to generate images from textual descriptions. The application is designed to showcase the power of OpenAI's DALL-E API and how it can be used to create stunning images from textual inputs.",
+            "A Finance App Dashboard designed to provide valuable insights and financial data visualization. The dashboard includes various types of charts, a data grid for displaying product and order information, and machine learning predictions for revenue forecasting.",
         tags: [
             {
                 name: "MERN",
                 color: "blue-text-gradient",
             },
             {
-                name: "TailwindCSS",
+                name: "MaterialUI",
                 color: "green-text-gradient",
             },
             {
-                name: "OpenAI",
+                name: "Regression",
                 color: "pink-text-gradient",
             },
         ],
-        image: dalle,
-        source_code_link: "https://github.com/jbxamora/DALL-E-Clone",
+        image: finance,
+        source_code_link: "https://github.com/jbxamora/finanseer",
     },
     {
         name: "EcomVision",
@@ -257,27 +258,27 @@ const projects = [
         image: ecomdash,
         source_code_link: "https://github.com/jbxamora/admindash",
     },
-    // {
-    //     name: "ThoughtsUp",
-    //     description:
-    //         "ThoughtsUp is a social network API built using Express.js and MongoDB, which can handle large amounts of unstructured data. It offers a variety of features such as sharing thoughts, reacting to friend’s thoughts, and creating a friend list. ",
-    //     tags: [
-    //         {
-    //             name: "Express",
-    //             color: "blue-text-gradient",
-    //         },
-    //         {
-    //             name: "restapi",
-    //             color: "green-text-gradient",
-    //         },
-    //         {
-    //             name: "mongodb",
-    //             color: "pink-text-gradient",
-    //         },
-    //     ],
-    //     image: thoughtsup,
-    //     source_code_link: "https://github.com/jbxamora/ThoughtsUp",
-    // },
+    {
+        name: "DALLE-E Clone",
+        description:
+            "A web application built using React.js that utilizes OpenAI's DALL-E API to generate images from textual descriptions. The application is designed to showcase the power of OpenAI's DALL-E API and how it can be used to create stunning images from textual inputs.",
+        tags: [
+            {
+                name: "MERN",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "TailWindCSS",
+                color: "green-text-gradient",
+            },
+            {
+                name: "OpenAI",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: dalle,
+        source_code_link: "https://github.com/jbxamora/DALL-E-Clone",
+    },
     {
         name: "Spice",
         description:
