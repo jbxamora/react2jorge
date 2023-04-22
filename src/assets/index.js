@@ -35,6 +35,8 @@ import ecomdash from "./ecomdash.png";
 import dalle from "./dall.png"
 import spice from "./spice.png"
 import finance from "./finance.png"
+import article from "./article.png"
+
 export {
   logo,
   backend,
@@ -69,5 +71,6 @@ export {
   ecomdash,
   dalle,
   spice,
-  finance
+  finance,
+  article
 };

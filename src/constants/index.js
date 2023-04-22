@@ -26,7 +26,8 @@ import {
     ecomdash,
     dalle,
     spice,
-    finance
+    finance,
+    article
 } from "../assets";
 
 function handleDownload(url) {
@@ -300,48 +301,49 @@ const projects = [
         source_code_link: "https://github.com/jbxamora/SPICE",
         live_demo_link: "https://spicerecipeapp.herokuapp.com/",
     },
-    // {
-    //     name: "BackOfShop",
-    //     description:
-    //         "This is a back end for an e-commerce website built with the latest technologies, allowing the company to compete with other e-commerce companies. ",
-    //     tags: [
-    //         {
-    //             name: "mysql2",
-    //             color: "blue-text-gradient",
-    //         },
-    //         {
-    //             name: "sequelize",
-    //             color: "green-text-gradient",
-    //         },
-    //         {
-    //             name: "nodejs",
-    //             color: "pink-text-gradient",
-    //         },
-    //     ],
-    //     image: backofshop,
-    //     source_code_link: "https://github.com/jbxamora/backofshop",
-    // },
-    // {
-    //     name: "sqlTrackR",
-    //     description:
-    //         "Organize and plan your business with ease! Manage your company's departments, roles, and employees all in one place with this command-line application, that lets you view and add departments, roles, and employees, update an employee's role, and even view the budget of a department!",
-    //     tags: [
-    //         {
-    //             name: "mysql",
-    //             color: "blue-text-gradient",
-    //         },
-    //         {
-    //             name: "javascript",
-    //             color: "green-text-gradient",
-    //         },
-    //         {
-    //             name: "nodejs",
-    //             color: "pink-text-gradient",
-    //         },
-    //     ],
-    //     image: sqltrack,
-    //     source_code_link: "https://github.com/jbxamora/backofshop",
-    // }
+    {
+        name: "ArticleSumz",
+        description:
+            "Sumz is an open-source article summarization tool powered by the advanced capabilities of OpenAI GPT-4. Designed to help users quickly grasp the essence of lengthy articles, Sumz transforms verbose content into clear, concise, and informative summaries.",
+        tags: [
+            {
+                name: "React",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "TailwindCSS",
+                color: "green-text-gradient",
+            },
+            {
+                name: "GPT-4",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: article,
+        source_code_link: "https://github.com/jbxamora/articlesumz",
+        live_demo_link: "https://articlesumz.onrender.com/",
+    },
+    {
+        name: "sqlTrackR",
+        description:
+            "Organize and plan your business with ease! Manage your company's departments, roles, and employees all in one place with this command-line application, that lets you view and add departments, roles, and employees, update an employee's role, and even view the budget of a department!",
+        tags: [
+            {
+                name: "mysql",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "nodejs",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: sqltrack,
+        source_code_link: "https://github.com/jbxamora/backofshop",
+    }
 ];
 
 export { services, technologies, experiences, testimonials, projects };
