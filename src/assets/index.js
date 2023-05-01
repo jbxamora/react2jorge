@@ -36,6 +36,7 @@ import dalle from "./dall.png"
 import spice from "./spice.png"
 import finance from "./finance.png"
 import article from "./article.png"
+import gptalk from "./gptalk.png"
 
 export {
   logo,
@@ -72,5 +73,6 @@ export {
   dalle,
   spice,
   finance,
-  article
+  article,
+  gptalk
 };

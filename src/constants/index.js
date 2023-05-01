@@ -27,7 +27,8 @@ import {
     dalle,
     spice,
     finance,
-    article
+    article,
+    gptalk
 } from "../assets";
 
 function handleDownload(url) {
@@ -280,12 +281,12 @@ const projects = [
         live_demo_link: "https://dall-e2-e3hy.onrender.com/",
     },
     {
-        name: "Spice",
+        name: "GPTalk",
         description:
-            "SPICE is a MERN stack recipe application that allows users to create, read, update, and delete recipes. The acronym SPICE stands for `Submit, Personalize, Improve, Create, Enjoy`, and the application is designed to provide an easy-to-use platform for users to share and discover new recipes. ",
+            "GPTalk is 'THE BLOG OF THE FUTURE', read and update trending stories! Utilize OpenAIs ChatGPT to help you rewrite articles. ",
         tags: [
             {
-                name: "MERN",
+                name: "NextJS",
                 color: "blue-text-gradient",
             },
             {
@@ -298,8 +299,8 @@ const projects = [
             },
         ],
         image: spice,
-        source_code_link: "https://github.com/jbxamora/SPICE",
-        live_demo_link: "https://spicerecipeapp.herokuapp.com/",
+        source_code_link: "https://github.com/jbxamora/GPTalk",
+        live_demo_link: "gptalk-fgzvn1lh0-jbxamora.vercel.app",
     },
     {
         name: "ArticleSumz",
