@@ -298,7 +298,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: spice,
+        image: gptalk,
         source_code_link: "https://github.com/jbxamora/GPTalk",
         live_demo_link: "gptalk-fgzvn1lh0-jbxamora.vercel.app",
     },
