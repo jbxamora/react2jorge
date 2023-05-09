@@ -37,6 +37,7 @@ import spice from "./spice.png"
 import finance from "./finance.png"
 import article from "./article.png"
 import gptalk from "./gptalk.png"
+import promptpal from "./promptpal.png"
 
 export {
   logo,
@@ -74,5 +75,6 @@ export {
   spice,
   finance,
   article,
-  gptalk
+  gptalk,
+  promptpal
 };

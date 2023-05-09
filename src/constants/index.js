@@ -28,7 +28,8 @@ import {
     spice,
     finance,
     article,
-    gptalk
+    gptalk,
+    promptpal
 } from "../assets";
 
 function handleDownload(url) {
@@ -286,7 +287,7 @@ const projects = [
             "GPTalk is 'THE BLOG OF THE FUTURE', read and update trending stories! Utilize OpenAIs ChatGPT to help you rewrite articles. ",
         tags: [
             {
-                name: "NextJS",
+                name: "NEXT13",
                 color: "blue-text-gradient",
             },
             {
@@ -325,25 +326,26 @@ const projects = [
         live_demo_link: "https://articlesumz.onrender.com/",
     },
     {
-        name: "sqlTrackR",
+        name: "PromptPal",
         description:
             "Organize and plan your business with ease! Manage your company's departments, roles, and employees all in one place with this command-line application, that lets you view and add departments, roles, and employees, update an employee's role, and even view the budget of a department!",
         tags: [
             {
-                name: "mysql",
+                name: "NEXT13",
                 color: "blue-text-gradient",
             },
             {
-                name: "javascript",
+                name: "TailWindCSS",
                 color: "green-text-gradient",
             },
             {
-                name: "nodejs",
+                name: "Prompt-Share",
                 color: "pink-text-gradient",
             },
         ],
-        image: sqltrack,
-        source_code_link: "https://github.com/jbxamora/backofshop",
+        image: promptpal,
+        source_code_link: "https://github.com/jbxamora/promptpal",
+        live_demo_link: "https://promptpal.vercel.app",
     }
 ];
 
